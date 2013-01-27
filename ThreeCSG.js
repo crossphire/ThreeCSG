@@ -1,4 +1,5 @@
 'use strict';
+/* Copyright (c) 2012 Chandler Prall, some portions Copyright (c) 2013 Crossphire Development LLC */
 window.ThreeBSP = (function() {
 	
 	var ThreeBSP,
