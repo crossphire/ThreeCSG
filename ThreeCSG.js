@@ -412,11 +412,11 @@ window.ThreeBSP = (function() {
 		);
 		
 		this.normal.add(
-			a.normal.clone().subVectors( a.normal, this.normal ).multiplyScalar( t )
+			a.normal.clone().sub( this.normal ).multiplyScalar( t )
 		);
 		
 		this.uv.add(
-			a.uv.clone().subVectors( a.uv, this.uv ).multiplyScalar( t )
+			a.uv.clone().sub( this.uv ).multiplyScalar( t )
 		);
 		
 		return this;
